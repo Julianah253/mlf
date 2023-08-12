@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*
+{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    // margin: 0;
+    box-sizing: border-box;
+    // border: 2px solid white;
+    background-color: black;
+}
+
+.mlf_customs
+{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    gap: -100px;
+    overflow-x: hidden;
+
+    .mlf_logo
+    {
+        img 
+        {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 130px;
+        }
+    }
+
+    .about_us
+    {
+        color: #fff;
+
+        // h2 
+        // {
+            // text-decoration: underline;
+            // text-decoration-color: #10b5cb;
+            // text-decoration-thickness: 30%;
+        // }
+
+        p
+        {
+            color: #fff;
+            word-spacing: 1px;
+            font-size: 16px;
+            text-align: center;
+            line-height: 21px;
+            // white-space: pre-line;
+        }
+    }
+
+    .contact_us
+    {
+        .title
+        {
+            color: #fff;
+        }
+
+        .mlf_social_icons
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            i 
+            {
+                color: #fff;
+                font-size: 30px;
+                gap: 10px;
+    
+                &:hover
+                {
+                    color: #10b5cb;
+                }
+            }
+        }
+    }
+}
+
