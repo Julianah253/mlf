@@ -11,7 +11,7 @@
   text-align: center;
   gap: -100px;
   overflow-x: hidden;
-  background-image: url("mlf background image.jpg");
+  background-image: url("mlf image.jpg");
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -23,12 +23,13 @@
 .mlf_customs .overlay {
   background-color: rgba(0, 0, 0, 0.5); /* Change the color and opacity as needed */
   padding: 20px;
-  height: 100%;
+  height: 800px;
   text-align: center;
   color: white;
+  opacity: 15;
 }
 .mlf_customs .mlf_logo {
-  padding: 20px;
+  padding-top: 70px;
 }
 .mlf_customs .mlf_logo img {
   display: block;
@@ -41,12 +42,12 @@
 }
 .mlf_customs .about_us h2 {
   color: #fff;
-  padding: 10px;
+  padding-top: 30px;
 }
 .mlf_customs .about_us p {
   color: #fff;
   word-spacing: 1px;
-  font-size: 16px;
+  font-size: 17px;
   text-align: center;
   font-weight: 500;
   line-height: 21px;
