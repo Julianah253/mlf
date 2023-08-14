@@ -7,8 +7,6 @@
     margin: 0;
     box-sizing: border-box;
     // border: 2px solid white;
-    // background-color: #000;
-    color: #000;
 }
 
 .mlf_customs
@@ -22,6 +20,8 @@
     overflow-x: hidden;
 
     background-image: url('mlf image.jpg');
+    background-color: grey;
+    background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -29,26 +29,32 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-
+    
 
     .overlay {
-        background-color: rgba(0, 0, 0, 0.5); /* Change the color and opacity as needed */
+        background-color: rgba(0, 0, 0, 0.5,); /* Change the color and opacity as needed */
         padding: 20px;
-        height: 800px;
+        height: 850px;
         text-align: center;
         color: white;
-        opacity: 15
+        opacity: 1;
     }
     
     .mlf_logo
     {
-        padding-top: 70px;
+        padding-top: 93px;
+        padding-bottom: 25px;
+    
+
         img 
         {
             display: block;
             margin-left: auto;
             margin-right: auto;
-            height: 130px;
+            height: 160px;
+            background-color: #000;
+            border-radius: 20px;
+            padding: 20px;
         }
     }
 
@@ -98,7 +104,7 @@
     
                 &:hover
                 {
-                    color: #10b5cb;
+                    color: #7c6659;
                 }
             }
         }
