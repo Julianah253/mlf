@@ -2,18 +2,33 @@
 * {
   font-family: "Roboto", sans-serif;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
-  background-color: black;
+  color: #000;
 }
 
 .mlf_customs {
-  display: grid;
-  align-items: center;
-  justify-content: center;
   text-align: center;
-  height: 100vh;
   gap: -100px;
   overflow-x: hidden;
+  background-image: url("mlf background image.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.mlf_customs .overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Change the color and opacity as needed */
+  padding: 20px;
+  height: 100%;
+  text-align: center;
+  color: white;
+}
+.mlf_customs .mlf_logo {
+  padding: 20px;
 }
 .mlf_customs .mlf_logo img {
   display: block;
@@ -24,15 +39,22 @@
 .mlf_customs .about_us {
   color: #fff;
 }
+.mlf_customs .about_us h2 {
+  color: #fff;
+  padding: 10px;
+}
 .mlf_customs .about_us p {
   color: #fff;
   word-spacing: 1px;
   font-size: 16px;
   text-align: center;
+  font-weight: 500;
   line-height: 21px;
+  padding: 20px;
 }
 .mlf_customs .contact_us .title {
   color: #fff;
+  padding: 0px;
 }
 .mlf_customs .contact_us .mlf_social_icons {
   display: flex;
